@@ -28,7 +28,7 @@ int printprime(int n) {
     if(count==0) {
       cout<<""<<i;
     }
-  }
+------------  }
 }
 int main()
 {
