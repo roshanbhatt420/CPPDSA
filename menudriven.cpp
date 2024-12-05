@@ -70,5 +70,40 @@ cout<<"No is even"<<endl;
 }
 int  main()
     {
-
+  while(1) {
+    int choice;
+    cout<<"1 for  fabb series  "<<endl;
+    cout<<"2 for greatest no among  n  "<<endl;
+    cout<<"3 for check pallindrome  "<<endl;
+    cout<<"4 for factorial of given no.  "<<endl;
+    cout<<"5 for check even odd  "<<endl;
+    cout<<"6 for exit  "<<endl;
+    cin>>choice;
+    switch(choice) {
+      case 1:
+              cout<<"Enter the number how many term you want"<<endl;
+              int n;
+              fabbino(n);
+      case 2:
+             cout<<"enter how many number you want to add"<<endl;
+             int n1;
+              greatest(n1);
+      case 3:
+            cout<<"enter the num you want to check pallindrome or not "<<endl;
+            int n2;
+            pallindrome(n2);
+      case 4:
+            cout<<"enter no you want to find factorial ";
+            int n3;
+            facto(n3);
+      case 5:
+            cout<<"enter no you want to check even odd ";
+            int n4;
+            evenodd(n4);
+      case 6:
+           exit(0);
+      default:
+           cout<<"wrong choice"<<endl;
+    }
+  }
   }
