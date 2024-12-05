@@ -83,23 +83,33 @@ int  main()
       case 1:
               cout<<"Enter the number how many term you want"<<endl;
               int n;
+              cin>>n;
               fabbino(n);
+              break;
       case 2:
              cout<<"enter how many number you want to add"<<endl;
              int n1;
-              greatest(n1);
+             cin>>n1;
+             greatest(n1);
+             break;
       case 3:
             cout<<"enter the num you want to check pallindrome or not "<<endl;
             int n2;
+             cin>>n2;
             pallindrome(n2);
+            break;
       case 4:
             cout<<"enter no you want to find factorial ";
             int n3;
+            cin>>n3;
             facto(n3);
+            break;
       case 5:
             cout<<"enter no you want to check even odd ";
             int n4;
+            cin>>n4;
             evenodd(n4);
+            break;
       case 6:
            exit(0);
       default:
